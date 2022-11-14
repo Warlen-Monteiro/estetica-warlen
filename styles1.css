@@ -1,0 +1,113 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0;
+    position: fixed;
+    }
+    
+ img{
+    width: 100px;
+}
+
+ .menu li{ 
+    display: inline-block;
+    margin: 0 10px;
+    }
+
+ .menu li a{
+    text-transform: uppercase;
+    font-size: 17px;
+    font-style: normal;
+    text-decoration: none;
+    padding: 10px 9px;
+    color: black
+}
+.menu li a:hover{
+  background-color: cadetblue;
+  border-radius: 15px;
+}
+  
+.procedimentos {
+   padding: 15px 15px 40px;
+   background-color: white
+   
+
+}
+
+.photo{
+   object-fit: cover;
+   width: 100%;
+   height: 300px
+}
+
+.titulo {
+   background-color: rgb(151, 151, 218);
+   display: grid;
+   grid-template-columns: auto;
+   text-align: center;
+   height: 100px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif
+   }
+
+.container {
+   background-color: rgb(151, 151, 218);
+   max-width: full;
+   display: grid;
+   height: 500px;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr; 1fr;
+   justify-content: center;
+   text-align: center;
+   margin: auto;
+   gap: 15px
+   }
+
+   .titulo-2{
+   display: grid;
+   grid-template-columns: 1fr;
+   text-align: center;
+   height: 100px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   background-color: rgb(151, 151, 218);
+    }
+     
+    .valores {
+       display: grid;
+       justify-items: center;
+       grid-column-start: 3;
+       height: 170px;
+       background-color: rgb(151, 151, 218);
+       }
+
+       .footer {
+           font-family: 'Times New Roman', Times, serif;
+           font-size: 12px;
+           color: rgb(241, 233, 233);
+           height: 180px;
+           background-color: rgb(97, 97, 124);
+           justify-items: center;
+           text-align: center;
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr
+        }
+
+           .imagem{
+               mix-blend-mode: multiply;
+               height: 30px;
+               width: 30px;
+           }
+   .logo1 {
+       width: auto;
+  mix-blend-mode:multiply ;
+  height: 120px;
+  left: 200px;
+  top: 200px;
+   }
