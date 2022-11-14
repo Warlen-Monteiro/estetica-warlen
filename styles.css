@@ -42,21 +42,28 @@ header{
     font-family: Arial;
     color:rgb(123, 19, 221)
     }
-footer{
-    width: 100%;
-    background-color: rgb(172, 172, 238);
-    justify-content: space-between;
-    display: flex;
-    align-items: top;
-    padding: 0px 0;
-    color:black
-   }
-.image{
-   width: auto;
-   mix-blend-mode:multiply ;
-   height: 100px;
-   left: 200px;
-   top: 200px;
-   }
+    
+    .footer {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color: rgb(241, 233, 233);
+        height: 180px;
+        background-color: rgb(97, 97, 124);
+        justify-items: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr
+     }
 
-
+        .imagem{
+            mix-blend-mode: multiply;
+            height: 30px;
+            width: 30px;
+        }
+.logo1 {
+    width: auto;
+mix-blend-mode:multiply ;
+height: 120px;
+left: 200px;
+top: 200px;
+}
