@@ -42,16 +42,51 @@ header{
     font-family: Arial;
     color:rgb(123, 19, 221)
     }
+
+    .efeito {
+        border-radius: 10px;
+        padding: 20px;
+        color: #ffffff;
+        font-size: 24px;
+        border: none;
+        line-height: 24px;
+        margin: 10px;
+        box-sizing: border-box;
+        position: relative;
+        cursor:pointer;
+        transition: 400ms ease;
+    }
+
+    .efeito-1{
+        background-color: #28348a;
+    }
+
+    .efeito-1:before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 0px;
+        height: 64px;
+        background-color: rgba(225,225,225,0.3);
+        border-radius: 10px;
+        transition: 2s ease;
+    }
+
+    .efeito-1:hover:before {
+        width: 100%;
+    }
     
     .footer {
         font-family: 'Times New Roman', Times, serif;
         color: rgb(241, 233, 233);
-        height: 200px;
+        height: 140px;
         background-color: rgb(97, 97, 124);
         justify-items: center;
         text-align: center;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr
+        justify-content: space-around;
+        grid-template-columns: 1fr 1fr 1fr 1fr
      }
 
         .imagem{
@@ -63,6 +98,6 @@ header{
     width: auto;
 mix-blend-mode:multiply ;
 height: 120px;
-left: 200px;
+left: 250px;
 top: 200px;
 }
