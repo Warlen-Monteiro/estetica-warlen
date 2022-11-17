@@ -37,9 +37,8 @@ header{
   
 .procedimentos {
    padding: 15px 15px 40px;
-   background-color: white
-   
-
+   background-color: rgb(255, 255, 255);
+    
 }
 
 .photo{
@@ -58,17 +57,19 @@ header{
    }
 
 .container {
+   padding-left: 10px;
+   padding-right: 10px;
    background-color: rgb(151, 151, 218);
    max-width: full;
    display: grid;
    height: 500px;
    grid-template-columns: 1fr 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr 1fr; 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
    justify-content: center;
    text-align: center;
    margin: auto;
    gap: 15px
-   }
+ }
 
    .titulo-2{
    display: grid;
@@ -96,7 +97,7 @@ header{
            justify-items: center;
            text-align: center;
            display: grid;
-           grid-template-columns: 1fr 1fr 1fr
+           grid-template-columns: 1fr 1fr 1fr 1fr;
         }
 
            .imagem{
