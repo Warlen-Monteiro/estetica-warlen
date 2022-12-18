@@ -80,12 +80,13 @@
 }
  .texto{
     background: url(img/body.jpg);
+    padding-top: 7cm;
     background-size: cover;
     width: full;
     height: 1000px;
     text-align: center;
     font-family: Arial;
-    color:rgb(123, 19, 221)
+    color: black
     }
 
     .efeito {
@@ -125,7 +126,7 @@
     .footer {
         font-family: 'Times New Roman', Times, serif;
         color: rgb(241, 233, 233);
-        height: 120px;
+        height: 100px;
         background-color: rgb(97, 97, 124);
         justify-items: center;
         text-align: center;
@@ -136,13 +137,13 @@
 
         .imagem{
             mix-blend-mode: multiply;
-            height: 30px;
-            width: 30px;
+            height: 25px;
+            width: 25px;
         }
 .logo1 {
-    width: auto;
+width: auto;
 mix-blend-mode:multiply ;
-height: 110px;
+height: 90px;
 left: 250px;
 top: 200px;
 }
