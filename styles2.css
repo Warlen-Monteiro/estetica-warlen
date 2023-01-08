@@ -3,6 +3,13 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+@media screen and (min-width: 993px) {
+
+    .menu_mobile {
+        display: none;
+    }
+
 header{
     width: 100%;
     background-color: white;
@@ -34,18 +41,62 @@ header{
   border-radius: 15px;
 }
 
+}
+@media screen and (max-width: 720px) {
+    .menu_mobile {
+        width: 100%;
+        position: fixed;
+        padding: 0px 0;
+        list-style: none;
+        align-items:flex-start;
+        display: flex;
+        background-color: rgb(236, 222, 222);
+        justify-content: space-between;
+        
+         }
+ 
+         img {
+            width: 80px;
+            mix-blend-mode:multiply ;
+         }
+ 
+    .header {
+        display: none;
+       }
+ 
+       header{
+          display: none;
+       }
+   
+    .menu_mobile li {
+    list-style: none;
+    padding: 4px;
+    }
+ 
+    .menu_mobile li a{
+        color: #fcf6f6;
+        text-decoration: none;
+        align-content: flex-end;
+        
+    }
+ 
+     
+ }
+
 .agendamentos{
+    padding-top: 5cm;
     text-align: center;
     background-color: rgb(151, 151, 218);
     width: full;
-    height: 500px;
+    height: 700px;
     text-size-adjust: 30px;
     }
     
     .footer {
         font-family: 'Times New Roman', Times, serif;
         color: rgb(241, 233, 233);
-        height: 100px;
+        height: 130px;
+        width: auto;
         background-color: rgb(97, 97, 124);
         justify-items: center;
         text-align: center;
